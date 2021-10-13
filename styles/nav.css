@@ -1,0 +1,98 @@
+nav#bootstrap-overrides-first-nav {
+    height: 42px;
+}
+button#bootstrap-overrides-signup {
+    margin-right: 10px;
+    margin-left: 5%;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: center;
+}
+button#bootstrap-overrides-login {
+    margin-left: 10px;
+    margin-right: 20px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: center;
+}
+div#navbarSupportedContent-one {
+    display: flex;
+    align-items: center;
+    margin-right: 6%;
+}
+ul#bootstrap-overrides-first-ul {
+    width: 200px;
+    margin-bottom: 0px!important;
+}
+.socials {
+    height: 25px;
+}
+.nav-item-first {
+    margin-right: auto;
+}
+.nav-item-first > a {
+    display: flex;
+    align-items: center;
+}
+
+@font-face {
+    font-family: Caribbeantool;
+    src: url("Caribbeantool-GZwO.otf");
+}
+#header-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://media.istockphoto.com/photos/abstract-blurred-leaves-of-tree-in-nature-forest-with-sunny-and-bokeh-picture-id1188216286?k=20&m=1188216286&s=612x612&w=0&h=P8yrDhGYb1QDqw_jDOny10cyyjLbETphiDFxxIE8d2o=");
+    background-size: cover;
+}
+#header-div > img{
+    width: 150px;
+}
+#header-div > h1{
+    font-size: 70px;
+    font-family: Caribbeantool;
+    margin: 0px;
+}
+
+.nav-item-second > a{
+    font-family: 'Sarabun', sans-serif;
+    color: rgb(162,210,64);
+    transition: 0.3s;
+}
+ul#bootstrap-overrides-second-ul {
+    margin-bottom: 0px!important;
+}
+nav#bootstrap-overrides-second-nav {
+    background: linear-gradient(to right,rgb(0,40,1), rgb(0,70,3) );
+}
+
+#bootstrap-overrides-first-option:hover, #bootstrap-overrides-second-option:hover, #bootstrap-overrides-third-option:hover,
+#bootstrap-overrides-fourth-option:hover, #bootstrap-overrides-fifth-option:hover, #bootstrap-overrides-sixth-option:hover,
+#bootstrap-overrides-seventh-option:hover {
+    color: rgb(0,40,1);
+    background: linear-gradient(to bottom right,rgb(162,210,64), rgb(90, 130, 0));
+}
+nav#bootstrap-overrides-second-nav {
+    padding: 0px;
+    height: 70px;
+}
+div#bootstrap-overrides-outer-div, div#navbarSupportedContent-two, ul#bootstrap-overrides-second-ul,
+#bootstrap-overrides-seventh-option, #bootstrap-overrides-sixth-option, #bootstrap-overrides-second-option, 
+#bootstrap-overrides-fifth-option, #bootstrap-overrides-fourth-option, #bootstrap-overrides-third-option, 
+#bootstrap-overrides-first-option, .nav-item-second {
+    height: 100%;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a.nav-link-option.nav-link {
+    font-size: 20px;
+    color: rgb(162,210,64);
+}
