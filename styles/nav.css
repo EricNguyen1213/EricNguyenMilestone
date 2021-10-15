@@ -69,6 +69,7 @@ ul#bootstrap-overrides-second-ul {
 }
 nav#bootstrap-overrides-second-nav {
     background: linear-gradient(to right,rgb(0,40,1), rgb(0,70,3) );
+    
 }
 
 #bootstrap-overrides-first-option:hover, #bootstrap-overrides-second-option:hover, #bootstrap-overrides-third-option:hover,
