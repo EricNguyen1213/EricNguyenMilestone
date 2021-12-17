@@ -1,0 +1,10 @@
+.footer {
+    background: linear-gradient(to right,rgb(0,0,0), rgb(0,40,1) );
+    height: 60vh;
+    
+}
+hr {
+    height: 3px;
+    margin: 0px;
+    color:white;
+}
